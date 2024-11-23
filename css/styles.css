@@ -7,7 +7,7 @@ h2,
 h3 {
     font-family: 'Cinzel', serif;
     font-weight: 700;
-    color: #2c3e50;
+    color: #50402c;
 }
 
 h4 {
@@ -40,4 +40,22 @@ a:hover {
 
 .text-shadow {
     text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+    background-color: #D4AF37;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-image: url('../img/botonback.jpg');
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.buttons:hover {
+    background-color: #B58B2E;
+    background-image: url('../img/botonback2.jpg');
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
