@@ -47,7 +47,6 @@ a:hover {
     font-weight: bold;
     text-transform: uppercase;
     background-image: url('../img/botonback.jpg');
-    background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -55,7 +54,14 @@ a:hover {
 .buttons:hover {
     background-color: #B58B2E;
     background-image: url('../img/botonback2.jpg');
-    background-size: contain;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.graybackground {
+    background-color: #cfcfcc;
+}
+
+.navbar-toggler {
+    border: none;
 }
