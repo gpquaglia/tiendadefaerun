@@ -1,5 +1,5 @@
 body {
-    background-color: #fffdf7;
+    background-color: #fefcf7;
 }
 
 h1,
@@ -65,3 +65,7 @@ a:hover {
 .navbar-toggler {
     border: none;
 }
+
+.navbar-toggler:focus {    
+    box-shadow: none;
+  }
