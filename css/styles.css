@@ -42,6 +42,50 @@ a:hover {
     text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
 }
 
+.textstyle {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    color: #2c3e50;
+    font-weight: 400;
+}
+
+.stylecarousel {
+    aspect-ratio: 3.2;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.stylecarousel>div {
+    font-family: 'Merriweather', serif;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.stylecarousel>img {
+    max-width: 20%;
+    filter: drop-shadow(0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.1));
+}
+
+.slide0 {
+    background-image: url('../img/carousel0.jpg')
+}
+
+.slide1 {
+    background-image: url('../img/carousel1.jpg')
+}
+
+.slide2 {
+    background-image: url('../img/carousel2.jpg')
+}
+
 .buttons {
     background-color: #D4AF37;
     font-weight: bold;
@@ -66,6 +110,6 @@ a:hover {
     border: none;
 }
 
-.navbar-toggler:focus {    
+.navbar-toggler:focus {
     box-shadow: none;
-  }
+}
