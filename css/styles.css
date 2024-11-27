@@ -59,6 +59,16 @@ a:hover {
     background-repeat: no-repeat;
 }
 
+.buttondetalle {
+    background-color: #D4AF37;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.buttondetalle:hover {
+    background-color: #edc43e;
+}
+
 .buttonbanner {
     font-family: 'Merriweather', serif;
     font-weight: bold;
@@ -134,4 +144,14 @@ a:hover {
     font-family: 'Cinzel', serif;
     font-weight: 700;
     color: #50402c;
+}
+
+.img-thumbnail {    
+    border: none;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
 }
