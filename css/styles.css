@@ -49,43 +49,6 @@ a:hover {
     font-weight: 400;
 }
 
-.stylecarousel {
-    aspect-ratio: 3.2;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-.stylecarousel>div {
-    font-family: 'Merriweather', serif;
-    color: whitesmoke;
-    font-size: 1.2rem;
-    text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.1);
-    font-weight: 400;
-    text-transform: uppercase;
-}
-
-.stylecarousel>img {
-    max-width: 20%;
-    filter: drop-shadow(0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.1));
-}
-
-.slide0 {
-    background-image: url('../img/carousel0.jpg')
-}
-
-.slide1 {
-    background-image: url('../img/carousel1.jpg')
-}
-
-.slide2 {
-    background-image: url('../img/carousel2.jpg')
-}
-
 .buttons {
     background-color: #D4AF37;
     font-weight: bold;
@@ -93,6 +56,26 @@ a:hover {
     background-image: url('../img/botonback.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.buttonbanner {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: large;
+    color: #D4AF37;
+}
+
+.buttonbanner:hover {
+    color: #e8b13a;
+}
+
+.text-banner {
+    color: #e5e5e5;
+    text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 1);
+    -webkit-text-stroke: 0.01rem #333333;
+    font-weight: 200;
+    font-size: 1.4rem;
 }
 
 .buttons:hover {
@@ -104,6 +87,10 @@ a:hover {
 
 .graybackground {
     background-color: #cfcfcc;
+}
+
+.backgroundtransparent {
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .navbar-toggler {
