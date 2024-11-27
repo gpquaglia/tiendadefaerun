@@ -32,6 +32,7 @@ a {
     font-family: 'Merriweather', serif;
     text-decoration: none;
     color: #716950;
+    font-weight: 400;
 }
 
 a:hover {
@@ -71,6 +72,23 @@ a:hover {
     color: #edc43e;
 }
 
+.buttonform {
+    font-family: 'Merriweather', serif;
+    background-color: #D4AF37;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.buttonform:hover {
+    background-color: #edc43e;
+}
+
+.form-control:focus {
+    border-color: #D4AF37;
+    box-shadow: 0 0 5px rgba(212, 175, 55, 0.5);
+}
+
 .text-banner {
     color: #e5e5e5;
     text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 1);
@@ -105,4 +123,15 @@ a:hover {
 .margenes {
     margin-left: auto;
     margin-right: auto;
+}
+
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.stylebrands {
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    color: #50402c;
 }
