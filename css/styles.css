@@ -107,6 +107,25 @@ a:hover {
     font-size: 1.4rem;
 }
 
+.cardspropio {
+    background-color: #f0eee993;
+    border: none;
+}
+
+.headerdelcard {
+    border: none;
+}
+
+.resenasnombres {
+    color: #50402c;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.resenassubtitulos {
+    font-size: 1.2rem;
+}
+
 .buttons:hover {
     background-color: #B58B2E;
     background-image: url('../img/botonback2.jpg');
@@ -154,4 +173,8 @@ a:hover {
 .img-thumbnail:hover {
     transform: scale(1.2);
     opacity: 0.8;
+}
+
+.titulosparadetalle {
+    background: none;
 }
