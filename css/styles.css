@@ -57,6 +57,7 @@ a:hover {
     background-image: url('../img/botonback.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    transition: all 0.3s ease;
 }
 
 .buttondetalle {
@@ -88,6 +89,7 @@ a:hover {
     font-weight: bold;
     text-transform: uppercase;
     font-size: large;
+    transition: all 0.3s ease;
 }
 
 .buttonform:hover {
