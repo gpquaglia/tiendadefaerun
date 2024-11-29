@@ -18,10 +18,49 @@
 
 <body class="mt-0">
 
-    <header class="container p-0">
+    <header>
 
-        <div class="container p-0 py-2">
-            <h1 class="text-center font-weight-bold p-3 mt-4">Figura de acción de <span lang="en">Gale</span></h1>
+        <div class="container p-0">
+
+            <div>
+                <nav class="navbar navbar-expand-md p-0">
+
+                    <div class="container graybackground p-2">
+
+                        <div class="navbar-brand stylebrands ms-2">Gale</div>
+
+                        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#barraNavegacion">
+                            <img src="img/menuhamburguesa.png" alt="Menú" style="width: 30px; height: 30px;">
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="barraNavegacion">
+
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item ms-auto">
+                                    <a class="nav-link" href="index.html">Inicio</a>
+                                </li>
+
+                                <li class="nav-item ms-auto">
+                                    <a class="nav-link" href="tienda.html">Mercado</a>
+                                </li>
+
+                                <li class="nav-item ms-auto">
+                                    <a class="nav-link" href="galeria.html">Galería</a>
+                                </li>
+
+                                <li class="nav-item ms-auto">
+                                    <a class="nav-link" href="contacto.html">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="container p-0 py-2">
+                <h1 class="text-center font-weight-bold p-3 mt-4">Figura de acción de <span lang="en">Gale</span></h1>
+            </div>
+
         </div>
 
     </header>
@@ -78,7 +117,40 @@
                     </div>
 
                     <div class="d-flex justify-content-center mt-4">
-                        <a href="#" target="_blank" class="btn buttondetalle text-light my-3 mb-4 p-3 mt-0">Comprar</a>
+
+
+                    <a class="btn buttondetalle text-light my-3 mb-4 p-3 mt-0" data-bs-toggle="offcanvas" href="#offcanvas" role="button" aria-controls="offcanvas">
+                        Comprar
+                      </a>
+                      
+                      <div class="offcanvas offcanvas-start backgroundclaro" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+                        <div class="offcanvas-header">
+                            
+                          <p class="offcanvas-title" id="offcanvasLabel">¡Estás a punto de adquirir tu figura de Gale!</p>
+                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <div>
+                            <p>Resumen de tu compra:</p>
+                            <p>Producto: Gale</p>
+                            <p>Cantidad: 1</p>
+                            <p>Precio: $49.999</p>
+                            <p class="mt-4">Si estás listo, selecciona tu método de pago y haz clic en "Finalizar compra" para completar tu pedido. ¡Nos aseguraremos de que tu producto llegue rápido y seguro!</p>
+                          </div>
+                          <div class="dropdown mt-3">
+                            <button class="btn btn-secondary dropdown-toggle mt-4" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                              Seleccionar método de pago
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                              <li><a class="dropdown-item" href="#"><p>Efectivo</p></a></li>
+                              <li><a class="dropdown-item" href="#"><p>Tarjeta de crédito</p></a></li>
+                              <li><a class="dropdown-item" href="#"><p>Billetera virtual</p></a></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <a href="#" target="_blank" class="btn buttondetalle text-light my-3 mb-4 p-3 mt-0">Finalizar compra</a>
+                      </div>
                     </div>
                 </div>
             </div>

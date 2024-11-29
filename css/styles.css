@@ -165,7 +165,7 @@ a:hover {
     color: #50402c;
 }
 
-.img-thumbnail {    
+.img-thumbnail {
     border: none;
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
@@ -177,4 +177,8 @@ a:hover {
 
 .titulosparadetalle {
     background: none;
+}
+
+.backgroundclaro {
+    background-color: #fefcf7;
 }
